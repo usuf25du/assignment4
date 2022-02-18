@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Income Boss</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="">
+            <h1 class="headline">Saving Boss</h1>
+        </div>
+
+    </header>
+
+    <div class="flex-container">
+        <div class="grid">
+            <img src="/image/pexels-pixabay-53621.jpg" class="img" alt="..." width="600" height="400">
+        </div>       
+            <div class="cal">
+                <div class="">
+                    <form >
+                        <label for="income-money">Income Amount</label>
+                        <input id="income-money" 
+                         type="text">                  
+                    </form>
+                </div>
+
+                <div class="headline"><h3> Expences</h3></div>
+                <div>
+                    <label for="rent-input"> Rent   </label>
+                    <input id="rent-input" type="text">
+                </div>
+                <br>
+                <div>
+                    <label for="cloth-input">Clothes</label>
+                    <input id="cloth-input" type="text">
+                </div>
+                <br>
+                <div>
+                    <button  id="calculate-btn" >Calculate</button>
+                </div>
+
+                <div><h3>Total Expences: <span id="totalExp">00</span></h3></div>
+                <div><h3>Balances: <span>00</span></h3></div>
+
+                <div class="one-line">
+                    <h3>Save:</h3> <input type="text"><span>%</span> <button id="save-btn">Save</button>
+                </div>
+                <div><h3>Saving Amount: <span>00</span></h3></div>
+                <div><h3>Remaining Balance: <span>00</span></h3></div>
+    
+                
+            </div>
+        </div>
+        
+
+    <!-- script for javascript here -->
+    <script src="app.js"></script>
+</body>
+</html>

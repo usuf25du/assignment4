@@ -1,0 +1,27 @@
+body {
+    margin-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.cal {
+    width: 600px;
+    text-align: left;
+    padding: 30px;
+    margin-left: 20px;
+    background-color: aliceblue;
+    border: 15px;
+    border-radius: 5px;
+
+}
+
+#calculate-btn {
+    align-items: center;
+}
+
+.headline {
+    text-align: center;
+}
