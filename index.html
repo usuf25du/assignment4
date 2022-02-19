@@ -23,36 +23,40 @@
                 <div class="">
                     <form >
                         <label for="income-money">Income Amount</label>
-                        <input id="income-money" 
-                         type="text">                  
+                        <input id="income-input" type="text">                  
                     </form>
                 </div>
 
                 <div class="headline"><h3> Expences</h3></div>
-                <div>
-                    <label for="rent-input"> Rent   </label>
+                <p><label for="food-input"> Food   </label>
+                    <input id="food-input" type="text">
+                </p>
+
+                <p><label for="rent-input"> Rent   </label>
                     <input id="rent-input" type="text">
-                </div>
-                <br>
-                <div>
-                    <label for="cloth-input">Clothes</label>
-                    <input id="cloth-input" type="text">
-                </div>
-                <br>
-                <div>
-                    <button  id="calculate-btn" >Calculate</button>
-                </div>
-
-                <div><h3>Total Expences: <span id="totalExp">00</span></h3></div>
-                <div><h3>Balances: <span>00</span></h3></div>
-
-                <div class="one-line">
-                    <h3>Save:</h3> <input type="text"><span>%</span> <button id="save-btn">Save</button>
-                </div>
-                <div><h3>Saving Amount: <span>00</span></h3></div>
-                <div><h3>Remaining Balance: <span>00</span></h3></div>
-    
+                </p>
                 
+                
+                <p><label for="cloth-input">Clothes</label>
+                    <input id="cloth-input" type="text">
+                </p>
+                <!-- claculation -->
+               <p><button  id="calculate-btn" >Calculate</button></p>
+
+                <div>
+                    <h3>Total Expences: <span id="totalExp">00</span></h3>
+                </div>
+                <div>
+                    <h3>Balance: <span id="balance_rest">00</span></h3>
+                </div>
+                <p>Save:<input id="inputSave" type="text"><span>%</span> <button id="save-btn">Save</button>
+                </p>                
+                <div>
+                    <h3>Saving Amount: <span id="savings">00</span></h3>
+                </div>
+                <div>
+                    <h3>Remaining Balance: <span id="rest-balance">00</span></h3></div>
+               
             </div>
         </div>
         
